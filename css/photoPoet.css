@@ -110,7 +110,7 @@ footer.jog {
 .overlay .prev,
 .overlay .next {
     position: absolute;
-    top: 20%;
+    top: 50%;
     transform: translateY(-50%);
     font-size: 3em;
     background: none;
@@ -147,11 +147,11 @@ footer.jog {
 
     .overlay .prev,
     .overlay .next {
-        top: 40%;
+        top: 30%;
 }
 
     #overlay-text {
-        font-size: 0.8em;
+        font-size: 0.9em;
         min-height: 30vh; 
   }
 
