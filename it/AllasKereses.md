@@ -1,0 +1,2 @@
+## Magyarországon a vidéken pályakezdőként az IT-ben?
+Budapesten rengeteg lehetőséget találni, de mi a helyzet a vidékkel ebben a menő szakmában? A tapasztalataimat fogom itt hamarosan megosztani veletek. Frissítés hamarosan!

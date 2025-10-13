@@ -1,0 +1,17 @@
+[
+    {    
+        "id": "ANagyLinuxFrissites",
+        "title": "Egy öreg Ubuntu naprakészre frissítése",
+        "date": "2025-10-13",
+        "excerpt": "Ubuntu 06.10 frissítése 25.10-re... Vajon lehetséges?",
+        "file": "it/ANagyLinuxFrissites.md"
+    },
+    {
+        "id": "AllasKereses",
+        "title": "A nagy álláskeresés",
+        "date": "2025-10-13",
+        "excerpt": "Magyarországon a vidéken pályakezdőként az IT-ben?",
+        "file": "it/AllasKereses.md"
+    }
+]
+

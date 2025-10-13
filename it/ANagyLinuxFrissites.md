@@ -1,0 +1,2 @@
+## Egy öreg Ubuntu naprakészre frissítése?
+Pár éve olvastam ebben a témában egy egész jó cikket (a pontos os-re már nem emlékszem), gondoltam én is kipróbálom. A tapasztalataimat fogom itt hamarosan megosztani veletek. Frissítés hamarosan!
