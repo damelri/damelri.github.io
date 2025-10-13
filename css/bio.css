@@ -24,6 +24,11 @@ ul {
     padding: 2rem 0 2rem 2rem;
 }
 
+.alapok a:link,
+a:visited {
+    text-transform: none;
+} 
+
 .tapasztalat {
     display: flex;
     flex-direction: column;
