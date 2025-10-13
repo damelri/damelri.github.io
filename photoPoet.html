@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Fotók és versek</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/photoPoet.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+
+    </head>
+
+    <body>
+
+        <div class="felirat">
+            <h1>Fotóim és verseim</h1>
+        </div>
+
+        <div id="galeria"></div>
+        
+        <div class="lenyilo">
+            <button class="gomb">☰ Menü</button>
+            <div class="lenyiloTartalom">
+                <a href="index.html">Főoldal</a>
+                <a href="bio.html">Bemutatkozás</a>
+                <a href="it.html">Informatikai finomságok</a>
+                <a href="teaching.html">Oktatás</a>
+            </div>
+        </div>
+
+        <!-- Overlay -->
+        <div id="overlay" class="overlay">
+            <button class="close">×</button>
+            <button class="prev">‹</button>
+            <div class="content">
+                <img id="overlay-img" src="" alt="">
+                <h2 id="overlay-title"></h2>
+                <div id="overlay-text"></div>
+            </div>
+            <button class="next">›</button>
+        </div>
+      
+
+        <footer class="jog">
+            © 2025 – Minden jog fenntartva
+        </footer>
+
+        <script src="photoPoet.js"></script>
+
+        
+    </body>
+
+</html>
