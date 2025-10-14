@@ -24,5 +24,6 @@ img {
 
     #cikk {
         padding: 1em;
+        text-align: unset;
     }
 }
