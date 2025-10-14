@@ -13,6 +13,7 @@ img {
     padding: 10em;
     display: grid;
     justify-content: center;
+    text-align: justify;
 }
 
 @media (max-width: 768px) {
