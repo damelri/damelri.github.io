@@ -25,25 +25,6 @@
 
         <div id="cikkek"></div>
 
-
-        <script>
-            fetch('it/cikkek.json')
-                .then(res => res.json())
-                .then(cikkek => {
-                    const container = document.getElementById('cikkek');
-                    cikkek.forEach(cikk => {
-                        container.innerHTML += `
-                            <cikk>
-                              <h1>${cikk.title}</h1>
-                              <small>${cikk.date}</small>
-                              <p>${cikk.excerpt}</p>
-                              <a href="cikk.html?id=${cikk.id}">Olvasd tovább →</a>
-                            </article>
-                          `;
-                    });
-                });
-        </script>
-        
-      
+        <script src="it.js"></script>
     </body>
 </html>

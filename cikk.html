@@ -9,7 +9,6 @@
 </head>
 
 <body>
-
     <div class="lenyilo">
         <button class="gomb">☰ Menü</button>
         <div class="lenyiloTartalom">
@@ -23,37 +22,9 @@
     <div id="cikk"></div>
 
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script>
-        async function cikkBetoltes() {
-            const params = new URLSearchParams(window.location.search);
-            const id = params.get('id');
+    <script src="https://cdn.jsdelivr.net/npm/dompurify/dist/purify.min.js"></script>
 
-            const res = await fetch('it/cikkek.json');
-            const cikkek = await res.json();
-            const cikk = cikkek.find(a => a.id === id);
-
-            if (!cikk) {
-                document.getElementById('cikk').innerHTML = "<p>Nincs ilyen cikk.</p>";
-                return;
-            }
-
-            const mdRes = await fetch(cikk.file);
-            const mdText = await mdRes.text();
-            const htmlContent = marked.parse(mdText);
-
-            document.getElementById('cikk').innerHTML = `
-              <cikk>
-                <h1>${cikk.title}</h1>
-                <small>${cikk.date}</small>
-                <div>${htmlContent}</div>
-                <p><a href="it.html">← Vissza a cikkekhez</a></p>
-              </cikk>
-            `;
-        }
-
-        cikkBetoltes();
-    </script>
-  
+    <script src="cikk.js"></script>  
 </body>
 
 </html>
