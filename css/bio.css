@@ -63,6 +63,11 @@ a:visited {
         text-align: center;
     }
 
+    .alapok,
+    .tapasztalat {
+        padding: 1em;
+    }
+
     .gomb {
         font-size: 5vw;
     }

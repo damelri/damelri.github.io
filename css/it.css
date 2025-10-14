@@ -9,7 +9,7 @@ html, body {
     background-color: #001b3d;
     display: flex;
     color: white;
-    font-size: 2vw;
+    font-size: 1.2em;
     justify-content: center;
 }
 
@@ -21,7 +21,7 @@ html, body {
 
 @media (max-width: 768px) {
     .felirat {
-        font-size: 5vw;
+        font-size: 0.9em;
     }
     
 }

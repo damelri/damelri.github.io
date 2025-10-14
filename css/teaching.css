@@ -8,7 +8,7 @@ img {
     background-color: #001b3d;
     display: flex;
     color: white;
-    font-size: 1.5vw;
+    font-size: 1.2em;
     justify-content: center;
 }
 
@@ -31,7 +31,7 @@ img {
     }
 
     .felirat {
-        font-size: 5vw;
+        font-size: 0.9em;
         text-align: center;
     }
 
