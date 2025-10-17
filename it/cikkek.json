@@ -2,14 +2,14 @@
     {
         "id": "AllasKereses",
         "title": "A nagy álláskeresés",
-        "date": "2025-10-14",
+        "date": "2025-10-17",
         "excerpt": "Magyarországon a vidéken pályakezdőként az IT-ben?",
         "file": "it/AllasKereses.md"
     },
     {
         "id": "ANagyLinuxFrissites",
         "title": "Egy öreg Ubuntu naprakészre frissítése",
-        "date": "2025-10-13",
+        "date": "2025-10-17",
         "excerpt": "Ubuntu 06.10 frissítése 25.10-re... Vajon lehetséges?",
         "file": "it/ANagyLinuxFrissites.md"
     }
