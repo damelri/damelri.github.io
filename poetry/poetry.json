@@ -1,0 +1,26 @@
+[
+    {
+        "kep": "poetry/AzUtazo.webp",
+        "cover": "poetry/AzUtazo-c.webp",
+        "cim": "Az utazó"
+    },
+    {
+        "kep": "poetry/AVilagitoToronyOrzoje.webp",
+        "cover": "poetry/AVilagitoToronyOrzoje-c.webp",
+        "cim": "A világítótorony őrzője"
+
+    },
+    {
+        "kep": "poetry/Visszatero.webp",
+        "cover": "poetry/Visszatero-c.webp",
+        "cim": "Visszatérő"
+
+    },       
+    {
+        "kep": "poetry/STeMelyikUtatValasztod.webp",
+        "cover": "poetry/STeMelyikUtatValasztod-c.webp",
+        "cim": "S te melyik utat választod?"
+
+    }   
+         
+]

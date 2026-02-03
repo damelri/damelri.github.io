@@ -1,0 +1,47 @@
+@import url(main.css);
+
+img {
+    max-width: 25%;
+}
+
+.felirat {
+    background-color: #001b3d;
+    display: flex;
+    color: white;
+    font-size: 1.2em;
+    justify-content: center;
+}
+
+.flexDoboz {
+    background-color: #001b3d;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+
+
+    img {
+        max-width: 75%;
+    }
+
+    .felirat {
+        font-size: 0.9em;
+        text-align: center;
+    }
+
+    .flexDoboz {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+
+

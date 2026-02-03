@@ -1,0 +1,74 @@
+@import url("main.css");
+
+img {
+    max-width: 35%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+}
+
+.doboz {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 100%;
+    height: 100vh;
+}
+
+.alapok {
+    display: flex;
+    flex-direction: column;
+    background-color: #001b3d;
+    padding: 2rem 0 2rem 2rem;
+}
+
+.alapok a:link,
+a:visited {
+    text-transform: none;
+} 
+
+.tapasztalat {
+    display: flex;
+    flex-direction: column;
+    background-color: #00357a;
+    padding: 2rem 0 2rem 2rem;
+
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 9vw;
+    }
+
+    h2 {
+        font-size: 7vw;
+    }
+
+    img {
+        max-width: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .doboz {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .mobilKozep {
+        text-align: center;
+    }
+
+    .alapok,
+    .tapasztalat {
+        padding: 1em;
+    }
+
+    .gomb {
+        font-size: 5vw;
+    }
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Amit a kamerám is látott</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/photoPoet.css">
+
+    </head>
+
+    <body>
+
+        <div class="felirat">
+            <h1>Fotóim</h1>
+        </div>
+
+        <div id="galeria" data-json="photography/photography.json"></div>
+        
+        <div class="lenyilo">
+            <button class="gomb">☰ Menü</button>
+            <div class="lenyiloTartalom">
+                <a href="index.html">Főoldal</a>
+                <a href="bio.html">Bemutatkozás</a>
+                <a href="it.html">Informatikai finomságok</a>
+                <a href="poetry.html">Megszökött gondolatok</a>
+                <a href="teaching.html">Oktatás</a>
+            </div>
+        </div>
+
+        <!-- Overlay -->
+        <div id="overlay" class="overlay">
+            <button class="close">×</button>
+            <button class="prev">‹</button>
+            <div class="content">
+                <img id="overlay-img" src="" alt="">
+                <h2 id="overlay-title"></h2>
+                <div id="overlay-text"></div>
+            </div>
+            <button class="next">›</button>
+        </div>
+      
+
+        <footer class="jog">
+            © 2026 – Minden jog fenntartva
+        </footer>
+
+        <script src="photoPoet.js"></script>
+
+        
+    </body>
+
+</html>

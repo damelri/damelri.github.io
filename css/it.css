@@ -1,0 +1,27 @@
+@import url(main.css);
+
+html, body {
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.felirat {
+    background-color: #001b3d;
+    display: flex;
+    color: white;
+    font-size: 1.2em;
+    justify-content: center;
+}
+
+#cikkek {
+    display: grid;
+    justify-content: center;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .felirat {
+        font-size: 0.9em;
+    }
+    
+}
