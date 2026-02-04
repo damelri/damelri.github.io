@@ -13,3 +13,5 @@ Szóval lesz itt sok minden, viszont ami nem: azok a hardverek (bár ez idővel 
 
 ## AI (el)használat
 Ahogy látom az AI ma már napjaink része lett és nem valószínű, hogy hirtelen megszűnjön a jövőben. Azt is látom, hogy sokan még nem igazán tudják ezeket az eszközöket megfelelően használni, pedig a mesterséges intelligencia egy eléggé hasznos eszköz lehet. Főleg akkor, ha nem csak kínos meme generálásokra akarjuk használni. Szóval, igen, igyekszem itt megmutatni, hogy hogyan készíts vele minőségi memeket a munkádhoz!
+
+Ha még itt vagy és nem riasztottalak el, akkor gyanítom, hogy a következő cikkek valamelyikében újra találkozni fogunk. Addig is, ha van kérdésed, észrevételed, ötleted a fentiekkel kapcsolatosan, akkor oszd meg velem bátran!
