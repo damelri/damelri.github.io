@@ -2,11 +2,13 @@ async function cikkBetoltes() {
     const params = new URLSearchParams(window.location.search);
     const id = params.get('id');
 
-    const res = await fetch('it/cikkek.json');
+    const container = document.getElementById('cikk'); 
+    const jsonPath = container.dataset.json;
+
+    const res = await fetch(jsonPath);
     const cikkek = await res.json();
     const cikk = cikkek.find(a => a.id === id);
 
-    const container = document.getElementById('cikk');
     container.innerHTML = "";
 
     if (!cikk) {
@@ -34,7 +36,12 @@ async function cikkBetoltes() {
 
     const back = document.createElement("p");
     const a = document.createElement("a");
-    a.href = "it.html";
+
+    if (document.referrer.includes("it.html")) { 
+            a.href = "it.html"; 
+        } else { 
+            a.href = "teaching.html"; 
+        }
     a.textContent = "← Vissza a cikkekhez";
     back.appendChild(a);
 
